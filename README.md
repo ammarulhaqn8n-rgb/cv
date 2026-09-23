@@ -17,7 +17,7 @@
 > leading teams, owning the App Store release pipeline and shipping products
 > people rely on every day.
 
----
+<br clear="all" />
 
 ## About
 
@@ -28,8 +28,6 @@ Store release and post-launch iteration — and I gravitate toward the hard
 problems: real-time systems, BLE / hardware integration, and apps where
 reliability is non-negotiable. I also build modern web front-ends (React /
 Next.js) when a product needs a companion site.
-
----
 
 ## Tech Stack
 
@@ -64,8 +62,6 @@ Connect (phased release, TestFlight) · App Privacy labels · ATT
 **Tooling:** Git / GitHub · SwiftLint / SwiftFormat · CocoaPods · SPM · JIRA ·
 Figma · Agile / Scrum
 
----
-
 ## Employment History
 
 | Period | Role | Company |
@@ -94,55 +90,76 @@ Figma · Agile / Scrum
 ### Binex Solutions — iOS Developer (Part-time)
 - Shipped multiple business apps; Objective‑C → Swift, AdMob / Chartboost, AFNetworking, CocoaPods.
 
----
-
 ## Education
 
 | Period | Qualification | Institution |
 | --- | --- | --- |
 | 2012 – 2016 | BSCS — Bachelor of Computer Science | SZABIST University · Islamabad, Pakistan |
 
----
-
 ## Selected Apps
 
 ### IGNITE Firing Systems
+
+<img src="images/projects/ignite.png" width="480" alt="IGNITE Firing Systems" />
+
 [App Store](https://apps.apple.com/us/app/ignite-firing-systems/id1544453017) · [Website](https://www.ignitefiringsystems.com)
 Smartphone-controlled fireworks firing system — real-time BLE ignition (&lt;300ms), fail-safe sequencing. Swift · Core Bluetooth · MVVM. **Rated 4.9** on the App Store.
 
 ### PyroCast
+
+<img src="images/projects/pyrocast.png" width="120" alt="PyroCast" />
+
 [App Store](https://apps.apple.com/us/app/pyrocast/id1583221898)
 Companion firing-system app in the IGNITE family — real-time control and show sequencing.
 
 ### Social Detox
+
+<img src="images/projects/social-detox.png" width="480" alt="Social Detox" />
+
 [App Store](https://apps.apple.com/pk/app/social-detox/id6497330800) · [Website](https://socialdetox.auraapps.online)
 Digital-wellbeing app that blocks distracting apps and builds healthier screen-time habits. SwiftUI · Screen Time API.
 
 ### Attendo Plus
+
+<img src="images/projects/attendo-plus.png" width="480" alt="Attendo Plus" />
+
 [App Store](https://apps.apple.com/us/app/attendo-plus/id1260460403) · [Website](https://www.attendoplus.com)
 Attendance management — native iOS app + web dashboard for check-ins, live reports and rosters.
 
 ### Spent
+
+<img src="images/projects/spent.png" width="480" alt="Spent" />
+
 [App Store](https://apps.apple.com/kz/app/spent-speak-it-its-saved/id6779672290) · [Website](https://www.spent.auraapps.online)
 Voice-first expense tracking with smart budgeting. SwiftUI · Siri integration.
 
 ### GuardsPro
+
+<img src="images/projects/guardspro.png" width="480" alt="GuardsPro" />
+
 [App Store](https://apps.apple.com/us/app/guardspro-security-guard-app/id1238303335) · [Website](https://www.guardspro.com)
 Security workforce management — guard tour tracking, live GPS, reporting and scheduling.
 
 ### Appic Fleet
+
+<img src="images/projects/appic-fleet.png" width="120" alt="Appic Fleet" />
+
 [App Store](https://apps.apple.com/us/app/appic-fleet/id6498920162)
 Fleet-management app for logistics and vehicle tracking.
 
 ### Roamie Travel
+
+<img src="images/projects/roamie-travel.png" width="480" alt="Roamie Travel" />
+
 [Website](https://roamietravel.com)
 AI trip-planning web app — trips, expenses and documents in one place.
 
 ### DietPal
+
+<img src="images/projects/dietpal.png" width="480" alt="DietPal" />
+
 [Website](https://dietpal.auraapps.online)
 Nutrition companion — describe what you ate and it does the USDA math (calories &amp; macros).
-
----
 
 ## Contact
 
