@@ -103,63 +103,97 @@ Figma · Agile / Scrum
 <img src="images/projects/ignite.png" width="480" alt="IGNITE Firing Systems" />
 
 [App Store](https://apps.apple.com/us/app/ignite-firing-systems/id1544453017) · [Website](https://www.ignitefiringsystems.com)
-Smartphone-controlled fireworks firing system — real-time BLE ignition (&lt;300ms), fail-safe sequencing. Swift · Core Bluetooth · MVVM. **Rated 4.9** on the App Store.
+
+Smartphone-controlled fireworks firing system with life-safety-grade reliability. **Rated 4.9** on the App Store.
+- **Real-time BLE engine:** Core Bluetooth (GATT) control of firing modules with **sub-300ms** latency, fail-safe handshakes and misfire guards.
+- **Deterministic scheduling:** paused-timeline show engine; Multipeer Connectivity / WebSocket fallback for multi-module shows and background BLE state restoration.
+- **Architecture:** SwiftUI + Combine → Swift Concurrency; modular **MVVM / TCA** in Swift Package Manager modules; Core Graphics / Metal firing-sequence visualizer.
+- **Measurement &amp; delivery:** Firebase Analytics + Crashlytics, AppsFlyer attribution, Remote Config flags; Fastlane + Xcode Cloud → TestFlight, App Store Connect phased releases.
 
 ### PyroCast
 
 <img src="images/projects/pyrocast.png" width="120" alt="PyroCast" />
 
 [App Store](https://apps.apple.com/us/app/pyrocast/id1583221898)
-Companion firing-system app in the IGNITE family — real-time control and show sequencing.
+
+Companion firing-system app in the IGNITE family for real-time control and show sequencing.
+- Shares the **Core Bluetooth** real-time engine; low-latency module control and cue playback.
+- Swift · **MVVM**; offline-capable show storage and reliable reconnection handling.
 
 ### Social Detox
 
 <img src="images/projects/social-detox.png" width="480" alt="Social Detox" />
 
 [App Store](https://apps.apple.com/pk/app/social-detox/id6497330800) · [Website](https://socialdetox.auraapps.online)
-Digital-wellbeing app that blocks distracting apps and builds healthier screen-time habits. SwiftUI · Screen Time API.
+
+Digital-wellbeing app that helps people reclaim focus and build healthier screen-time habits.
+- Built on Apple's **Screen Time / Family Controls** (DeviceActivity + ManagedSettings) to block distracting apps and enforce focus schedules.
+- **SwiftUI**; App Groups to share state with the shield extension; local notifications for focus sessions and usage insights.
+- Companion marketing site tuned for SEO and conversion.
 
 ### Attendo Plus
 
 <img src="images/projects/attendo-plus.png" width="480" alt="Attendo Plus" />
 
 [App Store](https://apps.apple.com/us/app/attendo-plus/id1260460403) · [Website](https://www.attendoplus.com)
-Attendance management — native iOS app + web dashboard for check-ins, live reports and rosters.
+
+Attendance management for organizations — native iOS app plus a web dashboard.
+- Check-ins, live reports and rosters kept in sync via **REST**; **Core Data** offline cache with background sync.
+- **APNs** push reminders, role-based access, and CSV/report exports for admins.
+- Web dashboard companion for real-time monitoring across teams.
 
 ### Spent
 
 <img src="images/projects/spent.png" width="480" alt="Spent" />
 
 [App Store](https://apps.apple.com/kz/app/spent-speak-it-its-saved/id6779672290) · [Website](https://www.spent.auraapps.online)
-Voice-first expense tracking with smart budgeting. SwiftUI · Siri integration.
+
+Voice-first personal expense tracking with smart budgeting.
+- **Speech framework / Siri** voice capture — "speak it, it's saved" — with smart categorization.
+- **SwiftUI + Swift Charts** for spend insights; Core Data / iCloud persistence and budget alerts.
+- Product landing page with SEO and App Store deep links.
 
 ### GuardsPro
 
 <img src="images/projects/guardspro.png" width="480" alt="GuardsPro" />
 
 [App Store](https://apps.apple.com/us/app/guardspro-security-guard-app/id1238303335) · [Website](https://www.guardspro.com)
-Security workforce management — guard tour tracking, live GPS, reporting and scheduling.
+
+Security workforce management platform used by security companies in the field.
+- **Live GPS** guard-tour tracking with Core Location + geofencing and checkpoint scans.
+- **Offline-first** incident reporting (photos, notes) synced to the backend when connectivity returns.
+- Scheduling, real-time dashboards and multi-role access across app and web.
 
 ### Appic Fleet
 
 <img src="images/projects/appic-fleet.png" width="120" alt="Appic Fleet" />
 
 [App Store](https://apps.apple.com/us/app/appic-fleet/id6498920162)
+
 Fleet-management app for logistics and vehicle tracking.
+- **MapKit + Core Location** live vehicle tracking, routes and trip logging.
+- REST backend integration with efficient background location updates.
 
 ### Roamie Travel
 
 <img src="images/projects/roamie-travel.png" width="480" alt="Roamie Travel" />
 
 [Website](https://roamietravel.com)
+
 AI trip-planning web app — trips, expenses and documents in one place.
+- **React / Next.js + TypeScript** SPA with server-prerendered, SEO-optimized marketing pages.
+- AI-assisted itinerary planning, expense tracking and shared trip ledgers; deferred deep links to the mobile app.
 
 ### DietPal
 
 <img src="images/projects/dietpal.png" width="480" alt="DietPal" />
 
 [Website](https://dietpal.auraapps.online)
-Nutrition companion — describe what you ate and it does the USDA math (calories &amp; macros).
+
+Nutrition companion — describe what you ate and it does the USDA math.
+- Voice/text meal logging that transcribes speech, looks it up in **USDA FoodData Central**, and stores calories &amp; macros.
+- **Privacy-first:** the recording is deleted as soon as the text is captured.
+- **Next.js** static export with trailing-slash routes, cached assets and a fast, mobile-first UI.
 
 ## Contact
 
