@@ -4,7 +4,7 @@
 
 **Senior iOS Developer &amp; Team Lead** — Pakistan · Remote
 
-[Portfolio](https://ammar.auraapps.online) ·
+[Portfolio](https://ammarulhaq.me) ·
 [Email](mailto:amarulhak@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/ammar-ul-haq-045051a1/) ·
 [Medium](https://medium.com/@amarulhak) ·
@@ -199,9 +199,9 @@ Nutrition companion — describe what you ate and it does the USDA math.
 
 - **Email:** amarulhak@gmail.com
 - **Phone:** +92 331 5145607
-- **Portfolio:** https://ammar.auraapps.online
+- **Portfolio:** https://ammarulhaq.me
 - **LinkedIn:** https://www.linkedin.com/in/ammar-ul-haq-045051a1/
 - **Location:** Pakistan · available remote worldwide
 
 <sub>This CV lives on GitHub. An interactive version with per-role deep dives is at
-<a href="https://ammar.auraapps.online/#career">ammar.auraapps.online</a>.</sub>
+<a href="https://ammarulhaq.me/#career">ammar.auraapps.online</a>.</sub>
