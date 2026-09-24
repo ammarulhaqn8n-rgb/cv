@@ -9,7 +9,7 @@
 [LinkedIn](https://www.linkedin.com/in/ammar-ul-haq-045051a1/) ·
 [Medium](https://medium.com/@amarulhak) ·
 [GitHub](https://github.com/ammarulhaqn8n-rgb) ·
-[Résumé (PDF)](Ammar-Ul-Haq-Resume.pdf)
+[CV (PDF)](Ammar-Ul-Haq-CV.pdf)
 
 > 10+ years building high-performance, native iOS apps — from real-time
 > Bluetooth firing systems to social, fintech and enterprise products. Expert in
@@ -62,7 +62,7 @@ Connect (phased release, TestFlight) · App Privacy labels · ATT
 **Tooling:** Git / GitHub · SwiftLint / SwiftFormat · CocoaPods · SPM · JIRA ·
 Figma · Agile / Scrum
 
-## Employment History
+## Experience
 
 | Period | Role | Company |
 | --- | --- | --- |
@@ -71,24 +71,104 @@ Figma · Agile / Scrum
 | Nov 2016 – Sep 2017 | iOS Developer | Ifisol · Pakistan |
 | Aug 2015 – Nov 2016 | iOS Developer (Part-time) | Binex Solutions · Pakistan |
 
+---
+
 ### IGNITE Firing Systems — Senior iOS Developer &amp; Team Lead
-- Lead and mentor the iOS team; own architecture, code reviews and technical direction.
-- Built the **Core Bluetooth firing engine** — sub‑300ms precision with fail‑safe misfire protection on a deterministic paused timeline.
-- Migrated UIKit → **SwiftUI + Combine → Swift Concurrency**; modular **MVVM / TCA** in SPM packages.
-- **Firebase Analytics + Crashlytics** (crash‑free‑users as a release gate); **AppsFlyer** for paid‑social install attribution and deferred deep linking.
-- **Fastlane + Bitrise / Xcode Cloud** CI/CD, automated TestFlight; App Store Connect phased releases.
-- Automated firework sequencing that increased client revenue by **~30%**.
+**Nov 2018 – Present · USA · Remote** &nbsp;·&nbsp; **Impact:** &lt;300ms fail-safe firing latency · +30% client revenue from automation · led &amp; mentored the iOS team
+
+As Senior iOS Developer and Team Lead I own the architecture and delivery of IGNITE, PyroCast and TNT — apps that fire real fireworks over Bluetooth with life-safety-grade reliability. I set technical direction, mentor the iOS team, run the CI/CD and App Store release pipeline, and work end-to-end with clients across US and Pakistan time zones.
+
+**What I did**
+- Lead and mentor a team of iOS developers — architecture decisions, code reviews and technical direction.
+- Own the full lifecycle: design, implementation, testing, release and client communication.
+- Define coding standards and a modular MVVM / TCA architecture in Swift Package Manager modules.
+- Instrument, measure and grow the product with analytics, attribution and crash monitoring.
+
+**Technical highlights**
+- **Real-time BLE firing engine (sub-300ms):** Core Bluetooth (GATT) control of firing modules with sub-300ms precision and fail-safe misfire protection on a deterministic paused-timeline scheduler; Multipeer Connectivity / WebSocket fallbacks and background BLE state restoration.
+- **SwiftUI + Combine → Swift Concurrency:** migrated core flows from UIKit, then to async/await and actors for compile-time concurrency safety; Core Graphics / Metal firing-sequence visualizer.
+- **Analytics, attribution &amp; crash monitoring:** Firebase Analytics + Crashlytics (crash-free-users as a release gate); AppsFlyer for paid-social install attribution (Meta / TikTok) and OneLink deferred deep linking; Remote Config feature flags.
+- **Revenue-driving automation:** designed automated firework sequencing that increased client revenue by ~30% and became a headline selling point.
+
+**Engineering &amp; delivery**
+- **Architecture:** Modular MVVM + TCA across SPM modules · protocol-oriented dependency injection · Combine → async/await + actors · feature-flagged rollouts (Remote Config).
+- **3rd-party SDKs:** Firebase (Analytics, Crashlytics, Remote Config, Cloud Messaging) · AppsFlyer (attribution + OneLink) · StoreKit 2 / RevenueCat · Sentry · Lottie.
+- **CI/CD &amp; Fastlane:** Fastlane lanes (beta, release, screenshots) + `match` code signing · Bitrise + Xcode Cloud → TestFlight · App Store Connect API key for headless build/version bumps · semantic versioning + changelog from PRs.
+- **App Store config:** phased release &amp; staged rollout · TestFlight internal/external groups · App Privacy nutrition labels + ATT · entitlements/capabilities (background modes, push, associated domains / Universal Links) · App Review handling.
+- **Code quality &amp; PRs:** trunk-based Git with short-lived branches · SwiftLint + SwiftFormat in CI · green-CI + peer approval before squash-merge · conventional commits · mentoring via reviews.
+- **Testing &amp; performance:** XCTest + snapshot testing · Instruments (Time Profiler, Allocations, Leaks) · cold-launch/memory tuning · crash-free-users release gate.
+
+**Stack:** Swift 5 · SwiftUI · UIKit · Combine · Swift Concurrency · Core Graphics · Core Bluetooth (BLE) · Multipeer Connectivity · WebSockets · MVVM · TCA · SPM · Firebase · Crashlytics · AppsFlyer · Universal Links · App Store Connect · TestFlight · Fastlane · Bitrise · Xcode Cloud · XCTest
+
+---
 
 ### DPL — Senior iOS Developer
-- Built **TalkBack**, a social news app; modernized to MVVM + Codable networking.
-- Firebase (Firestore, Auth, Cloud Messaging) for real‑time content and push; Branch / Dynamic Links deep linking.
+**Aug 2017 – Oct 2018 · Pakistan**
+
+Worked on TalkBack, a social news app for trending local stories, and improved the Alif Elan app. Modernized the codebase toward MVVM and Codable networking, and integrated the real-time backend, push and deep-linking a social product needs.
+
+**What I did**
+- Develop features for a social news app — feeds, trending content and engagement flows.
+- Integrate REST and real-time APIs and improve app performance.
+- Collaborate on new features to boost user engagement and retention.
+
+**Technical highlights**
+- **Modern MVVM + Codable networking:** Swift 4 with MVVM and coordinator navigation; migrated from AFNetworking / RestKit toward Alamofire + URLSession with Codable, and Core Data caching (NSFetchedResultsController) for offline feeds.
+- **Real-time content &amp; push:** Firebase (Firestore, Auth, Cloud Messaging) for live content and push notifications that re-engaged users.
+- **Shareable deep links + retention:** Firebase Dynamic Links / Branch so shared links opened the exact story in-app; engagement funnels in Firebase Analytics.
+- **Smooth, fast feeds:** profiled with Instruments and optimized scroll performance + async image loading (SDWebImage).
+
+**Engineering &amp; delivery**
+- **Architecture:** MVVM with coordinator navigation · Codable models · Core Data + NSFetchedResultsController.
+- **3rd-party SDKs:** Firebase (Firestore, Auth, FCM, Analytics) · Branch / Dynamic Links · SDWebImage · Fabric Crashlytics.
+- **CI/CD &amp; App Store:** Fastlane code signing + TestFlight · App Store Connect release management · CocoaPods.
+- **Code quality &amp; process:** Git feature-branch workflow with peer PR reviews · SwiftLint · Agile sprints in JIRA.
+
+**Stack:** Swift 4 · UIKit · MVVM · Alamofire · URLSession · Codable · Core Data · SDWebImage · Firestore · Firebase Auth · Cloud Messaging · Dynamic Links / Branch · Fastlane · TestFlight · CocoaPods
+
+---
 
 ### Ifisol — iOS Developer
-- Developed the **Attendo** employee‑management app serving thousands of employees.
-- Owned Ad Hoc / Enterprise / App Store distribution — provisioning, certificates and entitlements.
+**Nov 2016 – Sep 2017 · Pakistan**
+
+Developed the Attendo employee-management app, serving thousands of employees, and owned enterprise distribution end-to-end — provisioning, certificates, entitlements and reliable deployments across iOS updates.
+
+**What I did**
+- Build attendance and employee-management features for a large user base.
+- Manage provisioning profiles for Ad Hoc, Enterprise and App Store builds.
+- Keep the app stable across iOS releases with frequent, reliable deployments.
+
+**Technical highlights**
+- **Attendance at scale:** Swift 3 + UIKit with Core Data local storage and a REST sync layer (AFNetworking) keeping records consistent for thousands of employees.
+- **Push &amp; background sync:** APNs push notifications for attendance reminders and background fetch.
+- **Enterprise distribution ownership:** Ad Hoc, in-house Enterprise (.ipa) and App Store distribution — certificates, provisioning profiles and entitlements, with frequent OTA updates.
+- **Crash &amp; usage monitoring:** Fabric Crashlytics and Google / Firebase Analytics.
+
+**Engineering &amp; delivery**
+- **Architecture:** MVC / UIKit + Core Data · REST sync with conflict handling · APNs + background fetch.
+- **App Store &amp; distribution:** Ad Hoc / Enterprise / App Store builds · certificates, provisioning &amp; entitlements · frequent OTA deployments.
+- **SDKs &amp; tooling:** AFNetworking · Fabric Crashlytics · Google/Firebase Analytics · Fastlane (emerging) · CocoaPods · Git · Agile.
+
+**Stack:** Swift 3 · Objective-C · UIKit · Storyboards / XIBs · Auto Layout · Core Data · AFNetworking · REST · APNs · Fabric Crashlytics · CocoaPods
+
+---
 
 ### Binex Solutions — iOS Developer (Part-time)
-- Shipped multiple business apps; Objective‑C → Swift, AdMob / Chartboost, AFNetworking, CocoaPods.
+**Aug 2015 – Nov 2016 · Pakistan**
+
+Contributed to several business apps, integrating ad networks and REST APIs and maintaining shared codebases. Where I built the iOS fundamentals — UIKit, Auto Layout, memory management and clean, HIG-compliant UI — that everything since has been built on.
+
+**What I did**
+- Build and maintain features across multiple business apps.
+- Integrate third-party SDKs (ad networks, REST APIs).
+- Follow Apple Human Interface Guidelines and Agile practices, using Git for version control.
+
+**Technical highlights**
+- **Objective-C → Swift transition:** Objective-C and early Swift (2.x / 3), UIKit with Storyboards / XIBs and Auto Layout, ARC memory management.
+- **Monetization &amp; integrations:** AdMob and Chartboost; REST via AFNetworking; Core Data persistence.
+- **Fundamentals &amp; workflow:** CocoaPods, Git (feature branches + reviews), Apple HIG, Agile/Scrum, early crash reporting (Fabric) and analytics (Flurry / Google Analytics).
+
+**Stack:** Objective-C · Swift 2/3 · UIKit · Storyboards / XIBs · Auto Layout · AFNetworking · REST · Core Data · AdMob · Chartboost · CocoaPods · Git
 
 ## Education
 

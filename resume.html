@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Ammar Ul Haq — CV</title>
+<style>
+  @page { size: A4; margin: 14mm 15mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: #17181b; font-size: 10.3px; line-height: 1.5; margin: 0;
+  }
+  a { color: #2563eb; text-decoration: none; }
+  h1 { font-size: 25px; margin: 0; letter-spacing: -0.02em;
+       background: linear-gradient(100deg,#7c3aed,#2563eb 55%,#6d28d9);
+       -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .role { font-size: 12px; font-weight: 700; color: #111; margin: 2px 0 6px; }
+  .contact { font-size: 9.6px; color: #444; }
+  .contact a { color: #444; }
+  .contact b { color: #7c3aed; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: #7c3aed;
+       margin: 16px 0 6px; padding-bottom: 3px; border-bottom: 2px solid; border-image: linear-gradient(90deg,#7c3aed,#2563eb) 1; }
+  h3 { font-size: 11.4px; margin: 10px 0 1px; color: #111; }
+  .meta { font-size: 9px; color: #666; font-weight: 600; margin-bottom: 3px; }
+  .summary { color: #333; }
+  ul { margin: 3px 0 6px; padding-left: 15px; }
+  li { margin: 1.5px 0; }
+  .lead { color: #333; margin: 3px 0; }
+  .eng { margin: 4px 0 4px; }
+  .eng div { margin: 1.5px 0; }
+  .eng b { color: #111; }
+  .stack { font-size: 9.2px; color: #555; margin: 4px 0 2px; }
+  .stack b { color:#7c3aed; }
+  .role-block { page-break-inside: avoid; }
+  .apps a { font-weight:600; }
+  .two { display:flex; gap: 18px; }
+  .two > div { flex: 1; }
+  .tag { color:#555; }
+  hr { border:none; border-top:1px solid #eee; margin: 8px 0; }
+  .krow { display:flex; flex-wrap:wrap; gap:4px 6px; margin: 2px 0 6px; }
+  .k { font-size: 9px; background:#f4f4f8; border:1px solid #ececf2; border-radius:5px; padding:2px 7px; }
+</style>
+</head>
+<body>
+
+  <h1>Ammar Ul Haq</h1>
+  <div class="role">Senior iOS Developer &amp; Team Lead</div>
+  <div class="contact">
+    Pakistan · Remote &nbsp;•&nbsp; <b>amarulhak@gmail.com</b> &nbsp;•&nbsp; +92 331 5145607<br/>
+    <a href="https://ammarulhaq.me">ammarulhaq.me</a> ·
+    <a href="https://www.linkedin.com/in/ammar-ul-haq-045051a1/">LinkedIn</a> ·
+    <a href="https://github.com/ammarulhaqn8n-rgb">GitHub</a> ·
+    <a href="https://medium.com/@amarulhak">Medium</a>
+  </div>
+
+  <h2>Summary</h2>
+  <div class="summary">
+    Senior iOS Developer and Team Lead with 10+ years of production experience designing, building
+    and optimizing native iOS apps — from real-time, Bluetooth-controlled firing systems to social,
+    fintech and enterprise products. Expert in Swift, SwiftUI, UIKit, Combine, Core Bluetooth (BLE)
+    and real-time processing, with a track record of leading teams, owning the App Store release
+    pipeline, and shipping products people rely on daily. Also build React / Next.js web front-ends.
+  </div>
+
+  <h2>Core Skills</h2>
+  <div class="krow">
+    <span class="k">Swift</span><span class="k">SwiftUI</span><span class="k">UIKit</span>
+    <span class="k">Combine</span><span class="k">Swift Concurrency</span><span class="k">Core Bluetooth (BLE)</span>
+    <span class="k">MVVM · TCA · VIPER</span><span class="k">Clean Architecture · SPM</span>
+    <span class="k">REST · GraphQL · Alamofire</span><span class="k">Core Data · SwiftData · CloudKit</span>
+    <span class="k">Firebase · Crashlytics</span><span class="k">AppsFlyer · Deep Linking</span>
+    <span class="k">Fastlane · Bitrise · Xcode Cloud</span><span class="k">App Store Connect · TestFlight</span>
+    <span class="k">XCTest · Snapshot · Instruments</span><span class="k">React · Next.js · TypeScript</span>
+  </div>
+
+  <h2>Experience</h2>
+
+  <div class="role-block">
+    <h3>IGNITE Firing Systems — Senior iOS Developer &amp; Team Lead</h3>
+    <div class="meta">Nov 2018 – Present · USA · Remote &nbsp;|&nbsp; Impact: &lt;300ms fail-safe firing latency · +30% client revenue from automation · led &amp; mentored the iOS team</div>
+    <div class="lead">Own the architecture and delivery of IGNITE, PyroCast and TNT — apps that fire real fireworks over Bluetooth with life-safety-grade reliability. Set technical direction, mentor the iOS team, and run the CI/CD and App Store release pipeline end-to-end.</div>
+    <ul>
+      <li><b>Real-time BLE firing engine (sub-300ms):</b> Core Bluetooth (GATT) control of firing modules with fail-safe misfire protection on a deterministic paused-timeline scheduler; Multipeer Connectivity / WebSocket fallbacks and background BLE state restoration.</li>
+      <li><b>SwiftUI + Combine → Swift Concurrency:</b> migrated core flows from UIKit, then to async/await and actors; Core Graphics / Metal firing-sequence visualizer.</li>
+      <li><b>Analytics, attribution &amp; crash monitoring:</b> Firebase Analytics + Crashlytics (crash-free-users as a release gate); AppsFlyer for paid-social install attribution and OneLink deferred deep linking; Remote Config flags.</li>
+      <li><b>Revenue-driving automation:</b> automated firework sequencing that lifted client revenue ~30%.</li>
+    </ul>
+    <div class="eng">
+      <div><b>CI/CD &amp; Fastlane:</b> Fastlane lanes (beta/release/screenshots) + <code>match</code> code signing · Bitrise + Xcode Cloud → TestFlight · App Store Connect API for headless build/version bumps · changelog from PRs.</div>
+      <div><b>App Store config:</b> phased release &amp; staged rollout · TestFlight groups · App Privacy labels + ATT · entitlements/capabilities (background modes, push, associated domains) · App Review handling.</div>
+      <div><b>Code quality &amp; PRs:</b> trunk-based Git · SwiftLint + SwiftFormat in CI · green-CI + peer approval before squash-merge · mentoring via reviews.</div>
+      <div><b>Testing &amp; performance:</b> XCTest + snapshot tests · Instruments (Time Profiler, Allocations, Leaks) · cold-launch/memory tuning.</div>
+    </div>
+    <div class="stack"><b>Stack:</b> Swift · SwiftUI · UIKit · Combine · Swift Concurrency · Core Bluetooth · Multipeer · WebSockets · MVVM · TCA · SPM · Firebase · Crashlytics · AppsFlyer · Fastlane · Bitrise · Xcode Cloud · XCTest</div>
+  </div>
+
+  <div class="role-block">
+    <h3>DPL — Senior iOS Developer</h3>
+    <div class="meta">Aug 2017 – Oct 2018 · Pakistan</div>
+    <div class="lead">Built TalkBack, a social news app for trending local stories, and improved the Alif Elan app; modernized the codebase and integrated the real-time backend, push and deep-linking a social product needs.</div>
+    <ul>
+      <li><b>Modern MVVM + Codable networking:</b> Swift 4 with MVVM + coordinators; migrated from AFNetworking/RestKit to Alamofire + URLSession with Codable; Core Data caching (NSFetchedResultsController) for offline feeds.</li>
+      <li><b>Real-time content &amp; push:</b> Firebase (Firestore, Auth, Cloud Messaging) for live content and push re-engagement.</li>
+      <li><b>Deep links &amp; retention:</b> Firebase Dynamic Links / Branch for shareable story links; engagement funnels in Firebase Analytics; Instruments-tuned feed scrolling (SDWebImage).</li>
+    </ul>
+    <div class="stack"><b>Stack:</b> Swift 4 · UIKit · MVVM · Alamofire · Codable · Core Data · SDWebImage · Firestore · Firebase Auth · Cloud Messaging · Dynamic Links / Branch · Fastlane · TestFlight · CocoaPods</div>
+  </div>
+
+  <div class="role-block">
+    <h3>Ifisol — iOS Developer</h3>
+    <div class="meta">Nov 2016 – Sep 2017 · Pakistan</div>
+    <div class="lead">Developed the Attendo employee-management app serving thousands of employees, and owned enterprise distribution end-to-end.</div>
+    <ul>
+      <li><b>Attendance at scale:</b> Swift 3 + UIKit with Core Data local storage and a REST sync layer (AFNetworking); APNs push reminders and background fetch.</li>
+      <li><b>Enterprise distribution ownership:</b> Ad Hoc, in-house Enterprise (.ipa) and App Store builds — certificates, provisioning profiles and entitlements, with frequent OTA updates.</li>
+      <li><b>Monitoring:</b> Fabric Crashlytics and Google / Firebase Analytics.</li>
+    </ul>
+    <div class="stack"><b>Stack:</b> Swift 3 · Objective-C · UIKit · Core Data · AFNetworking · REST · APNs · Fabric Crashlytics · CocoaPods</div>
+  </div>
+
+  <div class="role-block">
+    <h3>Binex Solutions — iOS Developer (Part-time)</h3>
+    <div class="meta">Aug 2015 – Nov 2016 · Pakistan</div>
+    <div class="lead">Contributed to several business apps, integrating ad networks and REST APIs — where I built the iOS fundamentals everything since has been built on.</div>
+    <ul>
+      <li>Objective-C &amp; early Swift (2.x/3), UIKit with Storyboards/XIBs and Auto Layout, ARC memory management.</li>
+      <li>Monetization via AdMob and Chartboost; REST via AFNetworking; Core Data persistence; CocoaPods, Git, Apple HIG, Agile/Scrum.</li>
+    </ul>
+    <div class="stack"><b>Stack:</b> Objective-C · Swift 2/3 · UIKit · AFNetworking · Core Data · AdMob · Chartboost · CocoaPods · Git</div>
+  </div>
+
+  <h2>Education</h2>
+  <h3>BSCS — Bachelor of Computer Science</h3>
+  <div class="meta">SZABIST University · Islamabad, Pakistan · 2012 – 2016</div>
+  <div class="lead">Core coursework in Data Structures &amp; Algorithms, OOP, Databases, Operating Systems, Computer Networks and Software Engineering. Built the first iOS projects that set the direction for the career.</div>
+
+  <h2>Selected Apps</h2>
+  <div class="apps">
+    <ul>
+      <li><b>IGNITE Firing Systems</b> (iOS, real-time BLE, 4.9★) — <a href="https://apps.apple.com/us/app/ignite-firing-systems/id1544453017">App Store</a> · <a href="https://www.ignitefiringsystems.com">Site</a></li>
+      <li><b>PyroCast</b> (iOS, firing companion) — <a href="https://apps.apple.com/us/app/pyrocast/id1583221898">App Store</a></li>
+      <li><b>Social Detox</b> (iOS, Screen Time / Family Controls) — <a href="https://apps.apple.com/pk/app/social-detox/id6497330800">App Store</a></li>
+      <li><b>Attendo Plus</b> (iOS + web, attendance) — <a href="https://apps.apple.com/us/app/attendo-plus/id1260460403">App Store</a> · <a href="https://www.attendoplus.com">Site</a></li>
+      <li><b>Spent</b> (iOS, voice-first expenses) — <a href="https://apps.apple.com/kz/app/spent-speak-it-its-saved/id6779672290">App Store</a></li>
+      <li><b>GuardsPro</b> (security workforce, live GPS) — <a href="https://www.guardspro.com">Site</a></li>
+      <li><b>Roamie Travel</b> (AI trip planner, web) — <a href="https://roamietravel.com">Site</a></li>
+      <li><b>DietPal</b> (nutrition, web) — <a href="https://dietpal.auraapps.online">Site</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
