@@ -204,4 +204,4 @@ Nutrition companion — describe what you ate and it does the USDA math.
 - **Location:** Pakistan · available remote worldwide
 
 <sub>This CV lives on GitHub. An interactive version with per-role deep dives is at
-<a href="https://ammarulhaq.me/#career">ammar.auraapps.online</a>.</sub>
+<a href="https://ammarulhaq.me/#career">ammarulhaq.me</a>.</sub>
